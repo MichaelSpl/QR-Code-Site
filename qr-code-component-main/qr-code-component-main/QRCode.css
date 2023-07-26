@@ -1,0 +1,20 @@
+body {
+    background-color: #d5e1ef;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {color: hsl(228, 45%, 44%);}
+      
+p, .image {text-align: center;}
+
+.image {
+    background-color: white;
+}
+
+.image img {
+    border-radius: 25px;
+}
