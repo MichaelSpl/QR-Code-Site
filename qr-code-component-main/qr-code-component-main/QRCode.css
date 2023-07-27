@@ -20,6 +20,13 @@ p {text-align: center;}
     position: relative;
     width: 400px;
     height: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
+
+.image p, image img {
+    position: inherit;
     top: 50px;
 }
 
