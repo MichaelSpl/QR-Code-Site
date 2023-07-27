@@ -9,12 +9,25 @@ body {
 
 .attribution a {color: hsl(228, 45%, 44%);}
       
-p, .image {text-align: center;}
+p {text-align: center;}
+
+.image, .image img {
+    border-radius: 15px;
+}
 
 .image {
     background-color: white;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    top: 50px;
 }
 
 .image img {
-    border-radius: 25px;
+    display: block;
+    position: inherit;
+    margin: 0 auto;
+    top: 50px;
+    width: 300px;
 }
+
