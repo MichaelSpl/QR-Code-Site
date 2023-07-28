@@ -3,38 +3,42 @@ body {
 }
 
 .attribution {
+    position: relative;
     font-size: 11px;
     text-align: center;
+    top: 60px;
 }
 
 .attribution a {color: hsl(228, 45%, 44%);}
       
-p {text-align: center;}
+p, h2 {text-align: center;}
 
-.image, .image img {
+p {font-size: 20px;}
+
+.code, .code img {
     border-radius: 15px;
 }
 
-.image {
+.code {
     background-color: white;
     position: relative;
     width: 400px;
-    height: 500px;
+    height: 600px;
     left: 50%;
     transform: translateX(-50%);
     top: 50px;
 }
 
-.image p, image img {
+.code p, .code h2 {
     position: inherit;
-    top: 50px;
+    top: 30px;
 }
 
-.image img {
+.code img {
     display: block;
     position: inherit;
     margin: 0 auto;
-    top: 50px;
-    width: 300px;
+    top: 20px;
+    width: 360px;
 }
 
