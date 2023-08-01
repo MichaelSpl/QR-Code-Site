@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
 body {
-    background-color: #d5e1ef;
+    background-color: hsl(212, 45%, 89%);
 }
 
 .attribution {
@@ -11,19 +16,13 @@ body {
 
 .attribution a {color: hsl(228, 45%, 44%);}
       
-p, h2 {
+p {
     text-align: center;
-    font-family: sans-serif;
-}
-
-p {font-size: 20px;}
-
-.code, .code img {
-    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
 }
 
 .code {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     position: absolute;
     width: 400px;
     height: 600px;
@@ -32,13 +31,14 @@ p {font-size: 20px;}
     left: 0;
     right: 0;
     margin: auto;
+    border-radius: 15px;
 }
 
-.code p, .code h2 {
+.code p {
     position: relative;
     top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .code img {
@@ -47,5 +47,17 @@ p {font-size: 20px;}
     margin: 0 auto;
     top: 20px;
     width: 360px;
+    border-radius: 15px;
 }
 
+.first {
+    font-weight: 700;
+    font-size: 21px;
+    color: hsl(218, 44%, 22%);
+}
+
+.second {
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+}
