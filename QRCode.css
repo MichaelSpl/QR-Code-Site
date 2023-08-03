@@ -15,11 +15,6 @@ body {
 }
 
 .attribution a {color: hsl(228, 45%, 44%);}
-      
-p {
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-}
 
 .code {
     background-color: hsl(0, 0%, 100%);
@@ -35,10 +30,12 @@ p {
 }
 
 .code p {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
     position: relative;
     top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .code img {
@@ -60,4 +57,11 @@ p {
     font-weight: 400;
     font-size: 18px;
     color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 500px) {
+    .code {
+        width: 300px;
+        height: 500px;
+    }
 }
