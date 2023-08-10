@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Outfit;
-    src: url(https://fonts.google.com/specimen/Outfit);
+    font-family: "Outfit";
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
 }
 
 body {
@@ -31,11 +31,9 @@ body {
 
 .code p {
     text-align: center;
-    font-family: "Outfit", sans-serif;
+    font-family: Outfit;
     position: relative;
     top: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .code img {
@@ -49,7 +47,7 @@ body {
 
 .first {
     font-weight: 700;
-    font-size: 21px;
+    font-size: 23px;
     color: hsl(218, 44%, 22%);
 }
 
@@ -62,6 +60,18 @@ body {
 @media screen and (max-width: 500px) {
     .code {
         width: 300px;
-        height: 500px;
+        height: 480px;
+    }
+
+    .code img {
+        width: 260px;
+    }
+
+    .first {
+        font-size: 19px;
+    }
+
+    .second {
+        font-size: 16px;
     }
 }
